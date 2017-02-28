@@ -1,8 +1,68 @@
 @font-face {
   font-family:"dancing";
-  src:url("fotografia/fonts/DancingScript-Bold.ttf");
+  src:url("/next university/fotografia/fonts/DancingScript-Bold.ttf");
   }
   @font-face {
     font-family:"tangerine";
-    src:url("/fotografia/fonts/Tangerine_Bold.ttf");
+    src:url("/next university/fotografia/fonts/Tangerine_Bold.ttf");
     }
+
+    #cabecera {
+      width: 90% auto;
+      font-family: "dancing";
+      background:#5b7989;
+      color: white;
+      border-radius: 10px 10px 0 0 ;
+        }
+      #cabeza  {
+        width: 50%;
+        padding: 1%;
+        text-align: left;
+        font-family: "dancing";
+        }
+        #barra  {
+        width: 50%;
+        padding: 1%;
+        text-align: right;
+        font-family: "dancing";
+        display: inline;
+      }
+      #contenido {
+        padding: 0;
+        display: flex;
+        flex-direction:column;
+      }
+      a {
+        padding: 1%;
+        text-decoration:none;
+        color: white;
+        letter-spacing: 2px;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 2em;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px #02010a;
+      }
+        #principal {
+          background: #82c3a6;
+        }
+        #secundario {
+          background: #d5c75f;
+        }
+      #secundario > figure > img {
+        text-align: center;
+        width: 100%;
+        background: #d5c75f;
+        border: solid 1px;
+      }
+      #principal > figure > img {
+        text-align: center;
+        width: 100%;
+        border: solid 1px;
+      }
+  .contenedor {
+  display: flex;
+  flex-flow:row;
+
+  }

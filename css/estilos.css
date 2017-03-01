@@ -9,19 +9,21 @@
 
     #cabecera {
       width: 90% auto;
+      height: 10%;
       font-family: "dancing";
       background:#5b7989;
       color: white;
       border-radius: 10px 10px 0 0 ;
         }
       #cabeza  {
-        width: 50%;
+        width: 70%;
         padding: 1%;
         text-align: left;
         font-family: "dancing";
+        display: inline;
         }
         #barra  {
-        width: 50%;
+        width: 30%;
         padding: 1%;
         text-align: right;
         font-family: "dancing";
@@ -32,6 +34,19 @@
         display: flex;
         flex-direction:column;
       }
+      #pie {
+        
+          font-family: "tangerine";
+          text-align: center;
+          background:  #C6d5c5;
+          border-radius: 0 0 10px 10px;
+          color: black;
+
+        }
+      header{
+        vertical-align:middle;
+      }
+
       a {
         padding: 1%;
         text-decoration:none;
@@ -43,7 +58,14 @@
         font-size: 2em;
         letter-spacing: 2px;
         text-shadow: 2px 2px #02010a;
-      }
+        display: inline;
+        }
+        #logo {
+          width: 110px ;
+          height: 80px;
+          text-align:center;
+
+        }
         #principal {
           background: #82c3a6;
         }
@@ -61,8 +83,64 @@
         width: 100%;
         border: solid 1px;
       }
-  .contenedor {
+        #imagen1:hover {
+        animation: imagen1-animacion;
+        animation-duration: 5s;
+      }
+      #imagen2:hover {
+        animation: imagen2-animacion;
+        animation-duration: 1s;
+
+      }
+        .contenedor {
   display: flex;
   flex-flow:row;
 
+  }
+  .logos{
+    width: 8%;
+  }
+  #pie.contenedor > div {
+    width: 90%;
+
+  }
+  #pie.contenedor > div > ul > li {
+    list-style: none;
+    font-size: 1.5vw;
+    text-transform: capitalize;
+  }
+
+
+    h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  @keyframes  imagen1-animacion {
+    from {
+      border: 2px solid;
+    }
+    to {
+      transform: rotate(10deg);
+      border: 4px solid black;
+      box-shadow: 8px 8px 16px #82c3a6;
+    }
+
+  }
+  @keyframes imagen2-animacion {
+    0% {
+      position: relative;
+      right: 0px;
+    }
+    50% {
+    position: relative;
+    bottom:2px;
+    left: 10px;
+    }
+    100% {
+    position: relative;
+    bottom:5px;
+    left: 20px;
+    }
   }

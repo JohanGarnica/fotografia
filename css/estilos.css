@@ -19,7 +19,7 @@
         width: 70%;
         padding: 1%;
         text-align: left;
-        font-family: "dancing";
+        font-family: "dancing" !important;
         display: inline;
         }
         #barra  {
@@ -35,7 +35,7 @@
         flex-direction:column;
       }
       #pie {
-        
+
           font-family: "tangerine";
           text-align: center;
           background:  #C6d5c5;
@@ -54,7 +54,7 @@
         letter-spacing: 2px;
       }
       h1 {
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-size: 2em;
         letter-spacing: 2px;
         text-shadow: 2px 2px #02010a;
@@ -68,9 +68,6 @@
         }
         #principal {
           background: #82c3a6;
-        }
-        #secundario {
-          background: #d5c75f;
         }
       #secundario > figure > img {
         text-align: center;
@@ -92,11 +89,23 @@
         animation-duration: 1s;
 
       }
-        .contenedor {
-  display: flex;
-  flex-flow:row;
+      .imagenes {
+        width: 95%;
+        border-radius: 2px;
+        border: 2px solid black;
+        box-shadow: 2px 4px 8px #02010a;
 
-  }
+      }
+
+      .contenedor {
+       display: flex;
+      flex-flow:row;
+
+   }
+   .color-f {
+     background: #d5c75f;
+
+   }
   .logos{
     width: 8%;
   }

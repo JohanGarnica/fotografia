@@ -43,10 +43,19 @@
           color: black;
 
         }
+        body {
+          background-color: #02010a;
+        }
       header{
         vertical-align:middle;
       }
-
+      figcaption{
+        font-family:"tangerine";
+        font-size: 2vw;
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: underline;
+      }
       a {
         padding: 1%;
         text-decoration:none;
@@ -68,6 +77,9 @@
         }
         #principal {
           background: #82c3a6;
+        }
+        #secundario {
+          background: #d5c75f;
         }
       #secundario > figure > img {
         text-align: center;
@@ -95,6 +107,18 @@
         border: 2px solid black;
         box-shadow: 2px 4px 8px #02010a;
 
+      }
+      #efecto1 {
+        -webkit-filter: blur(10px);
+        filter: blur (10px);
+      }
+      #efecto2{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale (100%);
+      }
+      #efecto3{
+        -webkit-filter: sepia(100%);
+        filter:sepia (100%);
       }
 
       .contenedor {
@@ -152,4 +176,11 @@
     bottom:5px;
     left: 20px;
     }
+  }
+  @media (max-width: 900px) {
+    #contenido {
+      text-align: center;
+      margin: 0vw 10vw ;
+    }
+
   }

@@ -140,7 +140,7 @@
   }
   #pie.contenedor > div > ul > li {
     list-style: none;
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-transform: capitalize;
   }
 
@@ -221,6 +221,13 @@
       flex-direction: column;
       text-align: center;
 
+    }
+    #pie.contenedor > div > ul > li {
+      font-size: 4vw;
+      text-transform: capitalize;
+    }
+    h2{
+      font-size: 5vw;
     }
 
 

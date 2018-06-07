@@ -1,16 +1,16 @@
 @font-face {
-  font-family:"dancing";
-  src:url("/next university/fotografia/fonts/DancingScript-Bold.ttf");
+  font-family: "dancing";
+  src:url("/fotografia/fonts/DancingScript-Bold.ttf");
   }
   @font-face {
-    font-family:"tangerine";
-    src:url("/next university/fotografia/fonts/Tangerine_Bold.ttf");
+    font-family: "tangerine";
+    src:url("/fotografia/fonts/Tangerine_Bold.ttf");
     }
 
     #cabecera {
       width: 90% auto;
       height: 10%;
-      font-family: "dancing";
+      font-family: dancing;
       background:#5b7989;
       color: white;
       border-radius: 10px 10px 0 0 ;
@@ -20,14 +20,15 @@
         width: 70%;
         padding: 1%;
         text-align: left;
-        font-family: "dancing" !important;
-        display: inline;
+        font-family: "dancing"cursive !important;
+
         }
+
         #barra  {
         width: 30%;
         padding: 1%;
         text-align: right;
-        font-family: "dancing";
+        font-family: "dancing"cursive;;
         display: inline;
       }
       #contenido {
@@ -180,6 +181,7 @@
     }
   }
   @media (max-width: 899px) {
+
     #contenido {
       width: 100%;
       text-align: center;
@@ -204,13 +206,15 @@
       padding: 0;
       display: flex;
       flex-direction: column;
-      text-align: center;
+      text-align: center !important;
     }
     #cabeza #barra {
     width: 100%;
     padding: 0;
+    text-align: center !important ;
 
     }
+
     #pie > div {
       width: 100%;
 
